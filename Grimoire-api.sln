@@ -1,14 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grimoire.Api", "Grimoire.Api\Grimoire.Api.csproj", "{E9A03697-11EC-4053-9BAB-A27DA19CE4E1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grimoire.Api", "src\Grimoire.Api\Grimoire.Api.csproj", "{E9A03697-11EC-4053-9BAB-A27DA19CE4E1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{24E78C3F-9D34-4D1B-BD16-0E119E380A8D} = {24E78C3F-9D34-4D1B-BD16-0E119E380A8D}
+		{A1D29778-94FE-4EEE-9189-479E14FD2AD2} = {A1D29778-94FE-4EEE-9189-479E14FD2AD2}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grimoire.Application", "Grimoire.Application\Grimoire.Application.csproj", "{24E78C3F-9D34-4D1B-BD16-0E119E380A8D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grimoire.Application", "src\Grimoire.Application\Grimoire.Application.csproj", "{24E78C3F-9D34-4D1B-BD16-0E119E380A8D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B50BCED8-0F68-49EE-86FE-983036D5AFEF} = {B50BCED8-0F68-49EE-86FE-983036D5AFEF}
+		{D85EA79D-D173-4CB2-82AD-4A9CCB69F311} = {D85EA79D-D173-4CB2-82AD-4A9CCB69F311}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grimoire.Domain", "Grimoire.Domain\Grimoire.Domain.csproj", "{B50BCED8-0F68-49EE-86FE-983036D5AFEF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grimoire.Domain", "src\Grimoire.Domain\Grimoire.Domain.csproj", "{B50BCED8-0F68-49EE-86FE-983036D5AFEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grimoire.Infrastructure", "Grimoire.Infrastructure\Grimoire.Infrastructure.csproj", "{D85EA79D-D173-4CB2-82AD-4A9CCB69F311}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grimoire.Infrastructure", "src\Grimoire.Infrastructure\Grimoire.Infrastructure.csproj", "{D85EA79D-D173-4CB2-82AD-4A9CCB69F311}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B50BCED8-0F68-49EE-86FE-983036D5AFEF} = {B50BCED8-0F68-49EE-86FE-983036D5AFEF}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grimoire.Ioc", "Grimoire.Ioc\Grimoire.Ioc.csproj", "{A1D29778-94FE-4EEE-9189-479E14FD2AD2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grimoire.Ioc", "src\Grimoire.Ioc\Grimoire.Ioc.csproj", "{A1D29778-94FE-4EEE-9189-479E14FD2AD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
