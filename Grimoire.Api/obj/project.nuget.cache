@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "v7YYIq/kGJU=",
+  "success": true,
+  "projectFilePath": "C:\\Programming\\ProjetosPessoais\\Grimoire\\Grimoire-api\\Grimoire.Api\\Grimoire.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mathe\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.7\\microsoft.aspnetcore.openapi.9.0.7.nupkg.sha512",
+    "C:\\Users\\Mathe\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
