@@ -6,4 +6,17 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="Campaigns\Repositories\" />
+      <Folder Include="Campaigns\Services\" />
+      <Folder Include="Characters\Repositories\" />
+      <Folder Include="Characters\Services\" />
+      <Folder Include="Users\Repositories\" />
+      <Folder Include="Users\Services\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="DnsClient" Version="1.8.0" />
+    </ItemGroup>
+
 </Project>

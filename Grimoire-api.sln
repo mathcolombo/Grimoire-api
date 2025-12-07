@@ -19,7 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grimoire.Infrastructure", "
 		{B50BCED8-0F68-49EE-86FE-983036D5AFEF} = {B50BCED8-0F68-49EE-86FE-983036D5AFEF}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grimoire.Ioc", "src\Grimoire.Ioc\Grimoire.Ioc.csproj", "{A1D29778-94FE-4EEE-9189-479E14FD2AD2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grimoire.IoC", "src\Grimoire.IoC\Grimoire.IoC.csproj", "{A1D29778-94FE-4EEE-9189-479E14FD2AD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

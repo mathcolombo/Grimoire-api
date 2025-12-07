@@ -15,4 +15,15 @@
       <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Grimoire.Domain\Grimoire.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Campaigns\Repositories\" />
+      <Folder Include="Characters\Repositories\" />
+      <Folder Include="Shared\" />
+      <Folder Include="Users\Repositories\" />
+    </ItemGroup>
+
 </Project>

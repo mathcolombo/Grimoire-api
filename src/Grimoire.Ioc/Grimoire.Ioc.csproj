@@ -7,4 +7,13 @@
         <RootNamespace>Grimoire.IoC</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="9.0.11" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.11" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Grimoire.Infrastructure\Grimoire.Infrastructure.csproj" />
+    </ItemGroup>
+
 </Project>
