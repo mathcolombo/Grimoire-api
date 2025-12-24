@@ -22,7 +22,6 @@
     <ItemGroup>
       <Folder Include="Campaigns\Repositories\" />
       <Folder Include="Characters\Repositories\" />
-      <Folder Include="Shared\" />
       <Folder Include="Users\Repositories\" />
     </ItemGroup>
 
